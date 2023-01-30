@@ -3,23 +3,22 @@
   <head>
     <title>Programs - SwoleLifts</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="google-site-verification" content="Fm8mZ7gPIZgk7uxvsbVGh2AW5h1oHyU0eFL2JIj_YAo" />
   </head>
   <body>
-    <div class="container">
-      <header>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="programs.html">Programs</a></li>
-            <li><a href="eq.html">Equipment/Accessories</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="support.html">Support</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <button onclick="darkMode()">Dark Mode</button>
-          </ul>
-        </nav>
-      </header>
+    <nav class="navigation-bar">
+      <a href="index.html"><img src="images/swolelifts_transparent.png" class="logo"></a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="eq.html">Equipment/Accessories</a>
+      <a href="faq.html">FAQ</a>
+      <a href="support.html">Support</a>
+      <a href="contact.html">Contact</a>
+      <a><button onclick="darkMode();textChange();" id="buttonDIV">Dark Mode Off</button></a>
+  </nav>
+<!-- This class is put below so it doesn't affect the navigation bar above -->
+  <div class="container"> 
       <main>
         <h2>Beginners Program</h2>
             <h3>Equipment</h3>
@@ -161,41 +160,41 @@
                       <td rowspan="6">Day 4(Thursday)</td>
                       <td rowspan="6">Chest, Shoulders, Triceps</td>
                       <td rowspan="4">Volume</td>
-                      <td>Barbell Bench Press</td>
+                      <td>Flat Chest Press Machine</td>
                       <td>5</td>
                       <td>8-12</td>
                       <td>60-90 seconds</td>
                     </tr>
                     <tr>
-                      <td>Incline Barbell Bench Press</td>
+                      <td>Incline Chest Press Machine</td>
                       <td>5</td>
                       <td>8-12</td>
                       <td>60-90 seconds</td>
                     </tr>
                     <tr>
-                      <td>Barbell Overhead Press</td>
+                      <td>Shoulder Press Machine</td>
                       <td>5</td>
                       <td>8-12</td>
                       <td>60-90 seconds</td>
                     </tr>
                     <tr>
-                      <td>Dumbbell Press</td>
+                      <td>Lateral Raise Machine</td>
                       <td>5</td>
                       <td>8-12</td>
                       <td>60-90 seconds</td>
                     </tr>
                     <tr>
                       <td rowspan="2">Superset(s)</td>
-                      <td>Dumbbell Bench or Incline Dumbbell Bench</td>
+                      <td>Dumbbell Bench or Incline Dumbbell Bench and Dumbbell Fly</td>
                       <td>4</td>
-                      <td>8-12</td>
-                      <td>60-90 seconds</td>
+                      <td>8-12 each workout</td>
+                      <td>1-2 minutes</td>
                     </tr>
                     <tr>
-                      <td>Dumbbell Lateral Raise or Lateral Raise Machine</td>
+                      <td>Dumbbell Press and Dumbbell Lateral Raise or Lateral Raise Machine</td>
                       <td>4</td>
-                      <td>8-12</td>
-                      <td>60-90 seconds</td>
+                      <td>8-12 each workout</td>
+                      <td>1-2 minutes</td>
                     </tr>
 
                     <!-- Day 5 on the table starts here -->
@@ -203,40 +202,40 @@
                       <td rowspan="6">Day 5(Friday)</td>
                       <td rowspan="6">Back, Legs, Biceps</td>
                       <td rowspan="4">Volume</td>
-                      <td>Sumo/Conventional Deadlift</td>
+                      <td>Seated Row Machine</td>
                       <td>4</td>
                       <td>8-12</td>
                       <td>60-90 seconds</td>
                     </tr>
                     <tr>
-                      <td>Barbell Row</td>
+                      <td>Incline Row Machine</td>
                       <td>4</td>
                       <td>8-12</td>
                       <td>60-90 seconds</td>
                     </tr>
                     <tr>
-                      <td>Squat</td>
+                      <td>45 Degree Leg Press Machine</td>
                       <td>4</td>
                       <td>8-12</td>
                       <td>60-90 seconds</td>
                     </tr>
                     <tr>
-                      <td>Dumbbell Front Squat</td>
+                      <td>Hack Squat Machine</td>
                       <td>4</td>
                       <td>8-12</td>
                       <td>60-90 seconds</td>
                     </tr>
                     <tr>
                       <td rowspan="2">Superset(s)</td>
-                      <td>Lat Pulldown</td>
+                      <td>Wide-Grip Pulldown and Reverse-Grip Pulldown</td>
                       <td>3</td>
-                      <td>8-12</td>
+                      <td>8-12 each workout</td>
                       <td>60-90 seconds</td>
                     </tr>
                     <tr>
-                      <td>Lunges (optional to use weights if bodyweight is too easy/light)</td>
+                      <td>Lunges (optional to use weights if bodyweight is too easy/light) and Dumbbell Squats</td>
                       <td>3</td>
-                      <td>8-12 each leg</td>
+                      <td>8-12 each workout</td>
                       <td>60-90 seconds</td>
                     </tr>
 
@@ -249,17 +248,19 @@
                   Here's some suggestions:
                 </p>
                   <ul>
-                      <li>Jog/Bike/Swim for about 30 minutes</li>
+                      <li>Jog/Bike/Swim/Jump Rope for about 30 minutes</li>
                       <li>Foam rolling for 15-20 minutes</li>
                       <li>Yoga - I just find some videos on Youtube and follow along</li>
+                      <li>Abdominal workouts</li>
                   </ul>
+                <p>You don't have to do all of them. You can choose 2 or 3 of them.</p>
                 <hr class="new1"> <!-- This is the horizontal line -->
 
                 <p>Day 7(Sunday) is rest day! Yes, resting is a crucial part to getting swole.</p>
                 <ol>
 
                 </ol>
-            <h3>What's next after completing this?</h3>
+            <h3>What's next after completing this program?</h3>
               <p>First and foremost, congratulations swoledier! It's one small lift for man, one huge lift for the swole kingdom. Keep up the swolecellent job! At this point, you should be comfortable 
                 with most workouts/movements, stronger, and swoler.</p>
               <p>What you can do next is either re-do this program with heavier weights and incorporate different workouts/movements or move onto the Intermediate Program.</p>    
@@ -268,11 +269,18 @@
         <h2>Advanced Program</h2>
           <p>Coming soon!</p>
       </main>
+    </div>
       <footer >
         <p>Copyright ©2023 SwoleLifts</p>
         <p>Last modified: <span id = "mod_time"></span> CST</p>
+        <p><b>Disclaimer:</b> The information provided on SwoleLifts is not written by medical, fitness, or nutrition professionals. 
+          It is served as a personal blog with a purpose of sharing the author's experiences and opinions about fitness and nutrition.
+          The author strongly urge you to consult with your primary health care provider (e.g., physician or nurse practirioner) before 
+          starting any plan that could result in weight loss or muscle gain, even if it's not your goal. Author will not compensate you in any way
+          whatsoever should you suffer a loss/injury/inconvenience/damage because of/while using the information from SwoleLifts.
+          Author may continuously update old posts on a regular basis and is not bound to explicitly state all corrections made.</p>
       </footer>
-    </div>
+    
   </body>
   <script src="functions.js"></script>
 </html>

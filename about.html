@@ -3,38 +3,37 @@
   <head>
     <title>About - SwoleLifts</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="google-site-verification" content="Fm8mZ7gPIZgk7uxvsbVGh2AW5h1oHyU0eFL2JIj_YAo" />
   </head>
   <body>
-    <div class="container">
-      <header>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="programs.html">Programs</a></li>
-            <li><a href="eq.html">Equipment/Accessories</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="support.html">Support</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <button onclick="darkMode()">Dark Mode</button>
-          </ul>
-        </nav>
-      </header>
+      <nav class="navigation-bar">
+        <a href="index.html"><img src="images/swolelifts_transparent.png" class="logo"></a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programs.html">Programs</a>
+        <a href="eq.html">Equipment/Accessories</a>
+        <a href="faq.html">FAQ</a>
+        <a href="support.html">Support</a>
+        <a href="contact.html">Contact</a>
+        <a><button onclick="darkMode();textChange();" id="buttonDIV">Dark Mode Off</button></a>
+    </nav>
+  <!-- This class is put below so it doesn't affect the navigation bar above -->
+    <div class="container"> 
       <main>
         <h1>About SwoleLifts</h1>
           <p>Sit down son, let me tell you about SwoleLifts and it's creator, SwoleductManager.</p>
           <p>So who tf is this SwoleductManager and what kind of wack name is that?</p>
           <p>You see, SwoleductManager is the combination of "swole" and "product manager", which embodies me. I started my swoleney (swole + journey) right after high school and had no idea what I was doing.
-            I did not utilize any plans and just followed what other people were doing at the gym or watch Youtube videos. I had no set goals besides getting bigger and stronger.
-          </p> 
+            I did not utilize any plans and just followed what other people were doing at the gym or watch Youtube videos. I had no set goals besides getting bigger and stronger.</p> 
+          
           <p>Even in my freshmen year of college, my weight training was still inconsistent and not goal oriented. My diet and sleep were bad due to the nature of engineering classes.
             Sophomore year was where it all changed. The swoleness awakened in me when I came across gym bros lifting heavy ass weights at the university gym. That was when I came up with a semi-fledged plan
-            and educate myself on proper nutrition.
-          </p>
+            and educate myself on proper nutrition.</p>
+          
           <p>My main goals were getting stronger in bench, deadlift, and squat. I started following various powerlifting/strength/bodybuilding programs on the internet which helped my bench increase from 135lbs to 185lbs, 
             squat from 135lbs to 225lbs, and deadlift from 135lbs to 275lbs. There were times where I was inconsistent in my sophomore to senior phase due to assignments, late night studies, interview preps, interviews, and internships.
-            Nevertheless, it didn't stop my swoleney.
-          </p>
+            Nevertheless, it didn't stop my swoleney.</p>
+          
           <p>It was around the early stages of my career where the pandemic hit and all gyms were closed, halting my swoleney. At the time, I didn't have a home gym so I did what I could with what 
             I had (pushups, pullups at the park playground, running uphill, etc). It was also an opportunity for me to explore different directions of my career, which led me to becoming a product manager.</p>  
           <p>After about 6 months of excruciating pain of missing the smell of sweat and metal, the gyms re-opened again only to be closed 3 months later due to the spike in COVID cases. Thankfully I did 
@@ -53,11 +52,18 @@
             </ol>
           <p> If the answer is yes, then grab my hand and join me on this swoleney to the swole kingdom.</p>
       </main>
+    </div>
       <footer >
         <p>Copyright ©2023 SwoleLifts</p>
         <p>Last modified: <span id = "mod_time"></span> CST</p>
+        <p><b>Disclaimer:</b> The information provided on SwoleLifts is not written by medical, fitness, or nutrition professionals. 
+          It is served as a personal blog with a purpose of sharing the author's experiences and opinions about fitness and nutrition.
+          The author strongly urge you to consult with your primary health care provider (e.g., physician or nurse practirioner) before 
+          starting any plan that could result in weight loss or muscle gain, even if it's not your goal. Author will not compensate you in any way
+          whatsoever should you suffer a loss/injury/inconvenience/damage because of/while using the information from SwoleLifts.
+          Author may continuously update old posts on a regular basis and is not bound to explicitly state all corrections made.</p>
       </footer>
-    </div>
+    
   </body>
   <script src="functions.js"></script>
 </html>

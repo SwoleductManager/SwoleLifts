@@ -3,23 +3,22 @@
   <head>
     <title>Support - SwoleLifts</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="google-site-verification" content="Fm8mZ7gPIZgk7uxvsbVGh2AW5h1oHyU0eFL2JIj_YAo" />
   </head>
   <body>
-    <div class="container">
-      <header>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="programs.html">Programs</a></li>
-            <li><a href="eq.html">Equipment/Accessories</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="support.html">Support</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <button onclick="darkMode()">Dark Mode</button>
-          </ul>
-        </nav>
-      </header>
+    <nav class="navigation-bar">
+      <a href="index.html"><img src="images/swolelifts_transparent.png" class="logo"></a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="eq.html">Equipment/Accessories</a>
+      <a href="faq.html">FAQ</a>
+      <a href="support.html">Support</a>
+      <a href="contact.html">Contact</a>
+      <a><button onclick="darkMode();textChange();" id="buttonDIV">Dark Mode Off</button></a>
+  </nav>
+<!-- This class is put below so it doesn't affect the navigation bar above -->
+  <div class="container"> 
       <main>
         <h1>How Can You Support Me?</h1>
           <p>There are several ways you can support me:</p>
@@ -30,11 +29,18 @@
             <!-- <li>Instagram</li> -->
           </ul>   
       </main>
+    </div>
       <footer >
         <p>Copyright ©2023 SwoleLifts</p>
         <p>Last modified: <span id = "mod_time"></span> CST</p>
+        <p><b>Disclaimer:</b> The information provided on SwoleLifts is not written by medical, fitness, or nutrition professionals. 
+          It is served as a personal blog with a purpose of sharing the author's experiences and opinions about fitness and nutrition.
+          The author strongly urge you to consult with your primary health care provider (e.g., physician or nurse practirioner) before 
+          starting any plan that could result in weight loss or muscle gain, even if it's not your goal. Author will not compensate you in any way
+          whatsoever should you suffer a loss/injury/inconvenience/damage because of/while using the information from SwoleLifts.
+          Author may continuously update old posts on a regular basis and is not bound to explicitly state all corrections made.</p>
       </footer>
-    </div>
+    
   </body>
   <script src="functions.js"></script>
 </html>
