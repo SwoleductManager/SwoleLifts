@@ -15,18 +15,33 @@
   gtag('config', 'G-N6P41WKDCW');
 </script>
   <body>
-        <nav class="navigation-bar">
-            <a href="index.html"><img src="images/swolelifts_transparent.png" class="logo"></a>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="programs.html">Programs</a>
-            <a href="eq.html">Equipment/Accessories</a>
-            <a href="faq.html">FAQ</a>
-            <a href="support.html">Support</a>
-            <a href="contact.html">Contact</a>
-            <a><button onclick="darkMode();textChange();" id="buttonDIV">Dark Mode Off</button></a>
-        </nav>
-      <!-- This class is put below so it doesn't affect the navigation bar above -->
+    <!-- This is the navigation bar -->
+      <div class="navbar">
+        <a href="index.html"><img src="images/swolelifts_transparent.png" class="logo"></a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        
+        <div class="dropdown">
+          <button class="dropbtn">Programs
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="beginner_program.html">Beginners Program</a>
+            <a href="intermmediate_program.html">Intermediate Program</a>
+            <a href="#">Advance Program</a>
+          </div>
+        </div>
+
+        <a href="eq.html">Equipment/Accessories</a>
+        <a href="faq.html">FAQ</a>
+        <a href="support.html">Support</a>
+        <a href="contact.html">Contact</a>
+
+        <div class="dropdown">
+          <button class="dropbtn" onclick="darkMode();textChange();" id="buttonDIV">Dark Mode Off</button>
+        </div> 
+      </div>
+    <!-- Everything below is below the navigation bar -->
       <div class="container"> 
       <main>
         <h1>Welcome to SwoleLifts!</h1>
@@ -34,7 +49,7 @@
                 <p> <b>SwoleLifts</b> is a lifting program meant for anyone who wants to:</p>
                 <ol type="1">
                     <li>Get stronger</li>
-                    <li>Increase Hypertrophy (BIG SWOLE MUSCLE SIZE)</li>
+                    <li>Achieve Hypertrophy (BIG SWOLE MUSCLE SIZE)</li>
                     <li>Train all muscle groups</li>
                     <li>Have a mix of powerlifting, bodybuilding, and cardiovascular training</li>
                     <li>Live a healthy and active lifestyle</li>

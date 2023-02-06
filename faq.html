@@ -15,17 +15,32 @@
   gtag('config', 'G-N6P41WKDCW');
 </script>
   <body>
-    <nav class="navigation-bar">
+    <!-- This is the navigation bar -->
+    <div class="navbar">
       <a href="index.html"><img src="images/swolelifts_transparent.png" class="logo"></a>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
-      <a href="programs.html">Programs</a>
+      
+      <div class="dropdown">
+        <button class="dropbtn">Programs
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="beginner_program.html">Beginners Program</a>
+          <a href="intermmediate_program.html">Intermediate Program</a>
+          <a href="#">Advance Program</a>
+        </div>
+      </div>
+
       <a href="eq.html">Equipment/Accessories</a>
       <a href="faq.html">FAQ</a>
       <a href="support.html">Support</a>
       <a href="contact.html">Contact</a>
-      <a><button onclick="darkMode();textChange();" id="buttonDIV">Dark Mode Off</button></a>
-  </nav>
+
+      <div class="dropdown">
+        <button class="dropbtn" onclick="darkMode();textChange();" id="buttonDIV">Dark Mode Off</button>
+      </div> 
+    </div>
 <!-- This class is put below so it doesn't affect the navigation bar above -->
   <div class="container"> 
       <main>
